@@ -109,6 +109,9 @@
   #exportLabel { margin-top: 10px; font: 600 12px var(--mono); color: var(--dim); }
   footer { width: min(100%, calc((100vh - 170px) * 16 / 9), 1600px); font-size: 11px; color: var(--dim); line-height: 1.5; }
   @media (max-width: 640px) {
+    #marks, .ov-sub { display: none; }
+    #overlay { gap: 10px; }
+    .ov-title { font-size: 15px; }
     .controls { flex-wrap: wrap; }
     .track { order: -1; flex-basis: 100%; }
     .controls .lbl { display: none; }
